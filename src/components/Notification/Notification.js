@@ -42,7 +42,7 @@ const Notification = props => {
             containerStyles.backgroundColor = background_color;
         }
         if (font_size) {
-            textStyles.fontSize = font_size + 'px';
+            textStyles.fontSize = font_size;
         }
         if (text_color) {
             textStyles.color = text_color;

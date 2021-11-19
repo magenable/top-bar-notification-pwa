@@ -1,7 +1,7 @@
 {
   "name": "@magenable/top-bar-notification",
   "description": "An extension for Magento PWA Studio that allow to display simple notice at the top of the page",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
