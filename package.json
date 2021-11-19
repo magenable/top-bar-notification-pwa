@@ -1,0 +1,37 @@
+{
+  "name": "@magenable/top-bar-notification",
+  "description": "An extension for Magento PWA Studio that allow to display simple notice at the top of the page",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/magenable/top-bar-notification-pwa"
+  },
+  "bugs": {
+    "url": "https://github.com/magenable/top-bar-notification-pwa/issues"
+  },
+  "homepage": "https://github.com/magenable/top-bar-notification-pwa",
+  "keywords": [
+    "top bar notification",
+    "pwa-studio",
+    "pwastudio",
+    "pwa",
+    "magento",
+    "magento2"
+  ],
+  "main": "src/targets/intercept.js",
+  "peerDependencies": {
+    "@apollo/client": "^3.1.2",
+    "@magento/peregrine": "~11.0.0",
+    "@magento/pwa-buildpack": "^10.0.0",
+    "@magento/venia-ui": "^8.0.0",
+    "react": "~17.0.1",
+    "react-dom": "~17.0.1",
+    "react-feather": "~2.0.3"
+  },
+  "pwa-studio": {
+    "targets": {
+      "intercept": "src/targets/intercept.js"
+    }
+  }
+}

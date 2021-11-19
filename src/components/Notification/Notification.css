@@ -1,0 +1,14 @@
+.container {
+    position: relative;
+    padding: 5px 30px;
+    text-align: center;
+}
+.close {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+}
+.close:hover {
+    filter: contrast(0);
+}
